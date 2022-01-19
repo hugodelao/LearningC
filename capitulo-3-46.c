@@ -28,7 +28,9 @@ int main ()
 							contador++;
 							d3 = numero / divisor;
 							numero -= d3 * divisor;
-							divisor /= 10;}
+							divisor /= 10;
+							if (d3 == 0)
+								d3 = -1;}
 						if (contador == 4){
 							contador++;
 							d4 = numero / divisor;

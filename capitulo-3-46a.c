@@ -19,7 +19,9 @@ int main ()
 							contador++;
 							d1 = numero / divisor;
 							numero -= d1 * divisor;
-							divisor /= 10;}
+							divisor /= 10;
+							if (d1 == -1)
+								d1 = 0;}
 						if (contador == 2){
 							contador++;
 							d2 = numero / divisor;
