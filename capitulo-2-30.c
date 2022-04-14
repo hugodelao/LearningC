@@ -5,7 +5,7 @@ main()
 {
 	int entero1, entero5, i1, i2, i3, i4, i5;
 	printf("\nA continuación, le pediré que escriba un número entero de 5 dígitos");
-	printf("\nDespués, procederé a serarlo en 5 números independientes, mismos que mostraré");
+	printf("\nDespués, procederé a separarlo en 5 números independientes, mismos que mostraré");
 	printf("\nTeclee un número entero de 5 dígitos: ");
 	scanf("%d", &entero1);
 	entero5 = entero1;
