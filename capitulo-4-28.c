@@ -6,7 +6,7 @@ int main(){
 	float salsemana, semana, hora, salhora, ventas, salpieza, pieza;
 
 	while (noempleado != EOF){
-		printf("Escribe el número de empleado (1 a 4) o Ctrl-C para terminar.");
+		printf("Escribe el número de empleado (1 a 4) o Ctrl-C para terminar.\n");
 		scanf("%d", &noempleado);
 		switch (noempleado){
 			case 1:
@@ -39,6 +39,8 @@ int main(){
 				printf("Escribe el número de piezas a pagar: ");
 				scanf("%f", &pieza);
 				printf("El salario por %f piezas a una tarifa de %.2f por pieza es de: %.2f\n", pieza, salpieza, pieza * salpieza);
+				break;
+			case -1:
 				break;
 			default:
 				printf("Solo se permiten valores enteros del 1 al 4, estos inclusive. Vuelve a internarlo.\n");
